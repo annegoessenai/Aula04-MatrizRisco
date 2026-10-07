@@ -1,0 +1,138 @@
+/* RODAPÉ / PLAYER */
+
+.player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 90px;
+
+    background-color: #fffdf5;
+
+    border-top: 2px solid #b51b1b;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 50px;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Informações da música */
+
+.musica-info {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    width: 35%;
+}
+
+.capa {
+    width: 60px;
+    height: 60px;
+
+    background-color: #a80000;
+
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 30px;
+}
+
+.musica-info h3 {
+    margin: 0;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+.musica-info p {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* CONTROLES */
+
+.controles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+    width: 30%;
+}
+
+.controles button {
+    border: none;
+
+    background: transparent;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    color: #111;
+}
+
+.controles .play {
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    background-color: #b51212;
+
+    color: white;
+
+    font-size: 23px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* VOLUME */
+
+.volume {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    width: 30%;
+
+    justify-content: flex-end;
+}
+
+.volume input {
+    width: 220px;
+
+    accent-color: #b51212;
+}
+
+.volume span:last-child {
+    font-size: 14px;
+
+    white-space: nowrap;
+}

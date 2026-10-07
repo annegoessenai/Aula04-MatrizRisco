@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #f2f2ea; /* Cor escura elegante */
+    padding: 10px 20px;          /* Espaçamento interno (cima/baixo e lados) */
+    width: 100%;                 /* Ocupa a largura total da tela */
+
+    display: flex;
+    align-items: center;            /* Alinha os dois perfeitamente na vertical */
+    
+    border-bottom: 2px solid #b30000;
+}
+
+.logo {/* Coloca a imagem e o texto da logo lado a lado */
+    display: flex;
+    align-items: center; /* Alinha na altura certinha */
+    gap: 15px;           /* Espaço entre a imagem e a palavra */
+    color: #ffffff;
+    font-weight:lighter;
+    font-size: 10px;
+}
+
+.logo img {/* Controla o tamanho da imagem da logo para não quebrar a tela */
+    width: 150px;
+    height: 60px;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu a:hover {/* O que acontece quando passa o ponteiro do mouse por cima do link */
+    color: #B30000; /* Muda para azul claro */
+    border-bottom: 2px solid #b30000;
+}
+
+.icones img {
+    width: 100px;
+    height: auto;
+}
+

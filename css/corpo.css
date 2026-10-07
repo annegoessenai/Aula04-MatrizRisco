@@ -1,0 +1,95 @@
+.conteudo {
+    background-color: black;
+    text-align: center;
+    padding-top: 70px;
+    min-height: 700px;
+   
+}
+
+.logo-principal h2 {
+    font-family: Georgia, serif;
+    font-size: 70px;
+    margin: 0;
+    color: #f2f2ea;
+}
+
+.logo-principal h3 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    color: #f2f2ea;
+}
+
+.logo-principal p {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #f2f2ea;
+}
+.pesquisa {
+    width: 60%;
+    height: 65px;
+    margin: 30px auto 25px;
+    border: 2px solid #b30000;
+    border-radius: 40px;
+    background-color: #f2f2ea;
+
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.pesquisa span {
+    color: #b30000;
+    font-size: 30px;
+}
+
+.pesquisa input {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 15px;
+    font-size: 16px;
+    background: transparent;
+}
+
+.conteudo h4 {
+    letter-spacing: 4px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.vibes {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.vibe {
+    text-align: center;
+}
+
+.icone {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #b30000;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 35px;
+}
+
+.vibe img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+
+.vibe p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: white;
+}

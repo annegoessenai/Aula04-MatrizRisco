@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibraê</title>
+    <link rel="stylesheet" href="css/cabeçalho.css">
+    <link rel="stylesheet" href="css/corpo.css">
+     <link rel="stylesheet" href="css/rodape.css">
+    
+</head>
+<body>
+   <h1>
+        <header class="cabecalho"><!-- Aqui entrarão a logo e os links -->
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo"> <!-- Pode usar qualquer imagem salva na pasta img/ -->
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Playlist</a></li>
+                    <li><a href="#">Perfil</a></li>
+                </ul>
+            </nav>
+            <div class="icones">
+                <img src="img/icones.png" alt="Ícones">
+            </div>
+        </header>
+    </h1>
+    <script src="js/script.js"></script>
+
+        <main class="conteudo">
+            <div class="logo-principal">
+                <h2>VIBRAÊ</h2>
+                <h3>PLAY</h3>
+                <p>Sua vibe, nossa playlist.</p>
+            </div>
+
+            <div class="pesquisa">
+                <span>⌕</span>
+                <input type="text" placeholder="Buscar músicas, artistas ou álbuns...">
+            </div>
+
+              <h4>ESCOLHA SUA VIBE</h4>
+
+    <div class="vibes">
+
+        <div class="vibe">
+            <img src="img/feliz.png" alt="Feliz">
+            <p>Feliz</p>
+        </div>
+
+        <div class="vibe">
+            <img src="img/relaxado.png" alt="Relaxado">
+            <p>Relaxado</p>
+        </div>
+
+        <div class="vibe">
+            <img src="img/triste.png" alt="Triste">
+            <p>Triste</p>
+        </div>
+
+        <div class="vibe">
+            <img src="img/animado.png" alt="Animado">
+            <p>Animado</p>
+        </div>
+
+        <div class="vibe">
+            <img src="img/apaixonado.png" alt="Apaixonado">
+            <p>Apaixonado</p>
+        </div>
+
+        <div class="vibe">
+            <img src="img/calmo.png" alt="Calmo">
+            <p>Calmo</p>
+        </div>
+
+    </div>
+
+</main>
+<footer class="player">
+
+    <!-- Música selecionada -->
+    <div class="musica-info">
+        <div class="capa">
+            ♪
+        </div>
+
+        <div>
+            <h3>Nenhuma música selecionada</h3>
+            <p>Vibraê Play</p>
+        </div>
+    </div>
+
+    <!-- Controles -->
+    <div class="controles">
+
+        <button>🔀</button>
+
+        <button>⏮</button>
+
+        <button class="play">▶</button>
+
+        <button>⏭</button>
+
+        <button>🔁</button>
+
+    </div>
+
+    <!-- Volume e tempo -->
+    <div class="volume">
+
+        <span>🔊</span>
+
+        <input type="range" min="0" max="100" value="50"> <!--Possibilita mexer na barra da música-->
+
+        <span>0:00 / 0:00</span>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
